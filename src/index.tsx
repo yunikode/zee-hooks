@@ -1,1 +1,1 @@
-export * from './Demo'
+export * from './useCounter'
