@@ -16,6 +16,7 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
+    "commit": "git-cz",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "semantic-release": "semantic-release --branches main"
@@ -51,17 +52,23 @@
     "@size-limit/preset-small-lib": "^6.0.4",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "semantic-release": "^18.0.0",
     "size-limit": "^6.0.4",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.4",
-    "semantic-release": "^18.0.0"
+    "typescript": "^4.4.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/zee-german/zee-hooks.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
