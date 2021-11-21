@@ -8,5 +8,4 @@ Custom hooks I use from time to time
 
 # Overview of available hooks
 
-1) `useCounter` to add a simple counter
-2) `useToggle` to add a simple toggler functionality
+1) `useToggle` to add a simple toggler functionality
